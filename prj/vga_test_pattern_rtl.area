@@ -1,0 +1,34 @@
+standard
+***Report Model: vga_test_pattern_top***
+
+IO Statistics
+#IO                    12
+  #input                1
+  #output              11
+  #inout                0
+
+Gate Statistics
+#Basic gates           53
+  #and                  2
+  #nand                 0
+  #or                   2
+  #nor                  0
+  #xor                  0
+  #xnor                 0
+  #buf                  0
+  #not                  3
+  #bufif1               0
+  #MX21                 0
+  #FADD                 0
+  #DFF                 46
+  #LATCH                0
+#MACRO_ADD             10
+#MACRO_EQ               4
+#MACRO_MUX             20
+
+Report Hierarchy Area:
++-------------------------------------------------------+
+|Instance |Module               |gates  |seq    |macros |
++-------------------------------------------------------+
+|top      |vga_test_pattern_top |7      |46     |14     |
++-------------------------------------------------------+

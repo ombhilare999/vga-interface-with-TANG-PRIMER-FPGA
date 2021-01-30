@@ -33,7 +33,6 @@ module sync_count
 
     //Keep the track of Row and column counters
     always @(posedge i_clk) begin
-        
         if ( w_frame_start == 1'b1) begin
             o_col_count <= 0;
             o_row_count <= 0;
@@ -53,8 +52,5 @@ module sync_count
     end
 
     //Look for rising edge on Vertical Sync to reset the counters
-
     assign w_frame_start = (~o_vsync & i_vsync);
-
-
 endmodule

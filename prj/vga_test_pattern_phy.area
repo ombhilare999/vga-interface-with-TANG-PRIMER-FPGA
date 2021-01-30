@@ -1,0 +1,44 @@
+standard
+***Report Model: vga_test_pattern_top***
+
+IO Statistics
+#IO                    12
+  #input                1
+  #output              11
+  #inout                0
+
+Utilization Statistics
+#lut                  133   out of  19600    0.68%
+#reg                   44   out of  19600    0.22%
+#le                   146
+  #lut only           102   out of    146   69.86%
+  #reg only            13   out of    146    8.90%
+  #lut&reg             31   out of    146   21.23%
+#dsp                    0   out of     29    0.00%
+#bram                   0   out of     64    0.00%
+  #bram9k               0
+  #fifo9k               0
+#bram32k                0   out of     16    0.00%
+#pad                   12   out of    188    6.38%
+  #ireg                 0
+  #oreg                 2
+  #treg                 0
+#pll                    0   out of      4    0.00%
+
+
+Detailed IO Report
+
+Name              Direction     Location     IOStandard     DriveStrength     PackReg                  
+i_clk             INPUT         K14          LVCMOS33       N/A               NONE                     
+o_VGA_blue_0      OUTPUT        A4           LVCMOS33       20                NONE                     
+o_VGA_blue_1      OUTPUT        A3           LVCMOS33       20                NONE                     
+o_VGA_blue_2      OUTPUT        C5           LVCMOS33       20                NONE                     
+o_VGA_green_0     OUTPUT        B6           LVCMOS33       20                NONE                     
+o_VGA_green_1     OUTPUT        A5           LVCMOS33       20                NONE                     
+o_VGA_green_2     OUTPUT        B10          LVCMOS33       20                NONE                     
+o_VGA_hsync       OUTPUT        B14          LVCMOS33       20                OREG                     
+o_VGA_red_0       OUTPUT        A14          LVCMOS33       20                NONE                     
+o_VGA_red_1       OUTPUT        B15          LVCMOS33       20                NONE                     
+o_VGA_red_2       OUTPUT        B16          LVCMOS33       20                NONE                     
+o_VGA_vsync       OUTPUT        C16          LVCMOS33       20                OREG                     
+

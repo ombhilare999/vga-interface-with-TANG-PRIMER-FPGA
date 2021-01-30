@@ -1,0 +1,22 @@
+set_pin_assignment	{ i_clk }	{ LOCATION = K14; IOSTANDARD = LVCMOS33; }
+set_pin_assignment	{ o_VGA_blue_0 }	{ LOCATION = A4; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 20; }
+set_pin_assignment	{ o_VGA_blue_1 }	{ LOCATION = A3; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 20; }
+set_pin_assignment	{ o_VGA_blue_2 }	{ LOCATION = C5; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 20; }
+set_pin_assignment	{ o_VGA_green_0 }	{ LOCATION = B6; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 20; }
+set_pin_assignment	{ o_VGA_green_1 }	{ LOCATION = A5; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 20; }
+set_pin_assignment	{ o_VGA_green_2 }	{ LOCATION = B10; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 20; }
+set_pin_assignment	{ o_VGA_hsync }	{ LOCATION = B14; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 20; }
+set_pin_assignment	{ o_VGA_red_0 }	{ LOCATION = A14; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 20; }
+set_pin_assignment	{ o_VGA_red_1 }	{ LOCATION = B15; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 20; }
+set_pin_assignment	{ o_VGA_red_2 }	{ LOCATION = B16; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 20; }
+set_pin_assignment	{ o_VGA_vsync }	{ LOCATION = C16; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 20; }
+
+
+
+
+
+
+
+
+
+## Seven Segment, 7 pins

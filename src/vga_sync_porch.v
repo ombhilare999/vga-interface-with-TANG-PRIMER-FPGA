@@ -6,7 +6,7 @@
 ////////////////////////////////////////////////////////////////////////////////
 
 //For Count Values
-`include  "sync_count.v"
+//`include  "sync_count.v"
 
 module vga_sync_porch
 (
@@ -45,7 +45,7 @@ module vga_sync_porch
     reg [VIDEO_WIDTH-1:0] r_blue_video = 0;
 
     //Creating Instant
-    sync_count i1
+    sync_count i5
     (
         .i_clk(i_clk),
         .i_hsync(i_hsync),

@@ -15,7 +15,7 @@
 */
 
 //For Count Values
-`include  "sync_count.v"
+//`include  "sync_count.v"
 
 module test_pattern_gen
 (
@@ -49,7 +49,7 @@ module test_pattern_gen
     wire [VIDEO_WIDTH - 1:0] pattern_blue  [0:4];      //3 Bit Vector with 16 depth
 
     //Creating Instant
-    sync_count i1
+    sync_count i3
     (
         .i_clk(i_clk),
         .i_hsync(i_hsync),

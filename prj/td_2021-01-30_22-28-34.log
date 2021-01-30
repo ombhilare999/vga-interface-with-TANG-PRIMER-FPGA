@@ -1,0 +1,718 @@
+============================================================
+   Tang Dynasty, V4.6.18154
+   Copyright:   Shanghai Anlogic Infotech Co., Ltd.
+                2011 - 2021
+   Executable = /home/omkar/VJTI/primer/TD_RELEASE_March2020_r4.6.4/bin/td
+   Built by =   omkar
+   Built at =   2020, Mar 27
+   Run by =     omkar
+   Run Date =   Sat Jan 30 22:28:34 2021
+
+   Run on =     omkar
+============================================================
+RUN-1002 : start command "open_project vga_test_pattern.al"
+HDL-1007 : analyze verilog file ../src/vga_test_pattern_top.v
+HDL-1007 : analyze included file ../src/vga_sync_pulse.v in ../src/vga_test_pattern_top.v(11)
+HDL-1007 : back to file '../src/vga_test_pattern_top.v' in ../src/vga_test_pattern_top.v(11)
+HDL-1007 : analyze included file ../src/vga_sync_porch.v in ../src/vga_test_pattern_top.v(12)
+HDL-5007 WARNING: identifier 'VIDEO_WIDTH' is used before its declaration in ../src/vga_sync_porch.v(16)
+HDL-5007 WARNING: identifier 'VIDEO_WIDTH' is used before its declaration in ../src/vga_sync_porch.v(17)
+HDL-5007 WARNING: identifier 'VIDEO_WIDTH' is used before its declaration in ../src/vga_sync_porch.v(18)
+HDL-5007 WARNING: identifier 'VIDEO_WIDTH' is used before its declaration in ../src/vga_sync_porch.v(21)
+HDL-5007 WARNING: identifier 'VIDEO_WIDTH' is used before its declaration in ../src/vga_sync_porch.v(22)
+HDL-5007 WARNING: identifier 'VIDEO_WIDTH' is used before its declaration in ../src/vga_sync_porch.v(23)
+HDL-1007 : back to file '../src/vga_test_pattern_top.v' in ../src/vga_test_pattern_top.v(12)
+HDL-1007 : analyze included file ../src/test_pattern_gen.v in ../src/vga_test_pattern_top.v(13)
+HDL-5007 WARNING: identifier 'VIDEO_WIDTH' is used before its declaration in ../src/test_pattern_gen.v(28)
+HDL-5007 WARNING: identifier 'VIDEO_WIDTH' is used before its declaration in ../src/test_pattern_gen.v(29)
+HDL-5007 WARNING: identifier 'VIDEO_WIDTH' is used before its declaration in ../src/test_pattern_gen.v(30)
+HDL-1007 : back to file '../src/vga_test_pattern_top.v' in ../src/vga_test_pattern_top.v(13)
+HDL-1007 : analyze included file ../src/sync_count.v in ../src/vga_test_pattern_top.v(14)
+HDL-1007 : back to file '../src/vga_test_pattern_top.v' in ../src/vga_test_pattern_top.v(14)
+RUN-1002 : start command "import_device eagle_s20.db -package BG256"
+ARC-1001 : Device Initialization.
+ARC-1001 : ------------------------------------------------------------------
+ARC-1001 :            OPTION            |          IO          |   SETTING   
+ARC-1001 : ------------------------------------------------------------------
+ARC-1001 :   cso_b/cclk/mosi/miso/dout  |  T3/R11/T10/P10/S11  |    gpio    
+ARC-1001 :             done             |         P13          |    gpio    
+ARC-1001 :           program_b          |          T2          |  dedicated  
+ARC-1001 :        tdi/tms/tck/tdo       |   C12/A15/C14/E14    |  dedicated  
+ARC-1001 : ------------------------------------------------------------------
+ARC-1004 : Device setting, marked 5 dedicate IOs in total.
+HDL-1007 : analyze verilog file ../src/vga_sync_porch.v
+HDL-5007 WARNING: identifier 'VIDEO_WIDTH' is used before its declaration in ../src/vga_sync_porch.v(16)
+HDL-5007 WARNING: identifier 'VIDEO_WIDTH' is used before its declaration in ../src/vga_sync_porch.v(17)
+HDL-5007 WARNING: identifier 'VIDEO_WIDTH' is used before its declaration in ../src/vga_sync_porch.v(18)
+HDL-5007 WARNING: identifier 'VIDEO_WIDTH' is used before its declaration in ../src/vga_sync_porch.v(21)
+HDL-5007 WARNING: identifier 'VIDEO_WIDTH' is used before its declaration in ../src/vga_sync_porch.v(22)
+HDL-5007 WARNING: identifier 'VIDEO_WIDTH' is used before its declaration in ../src/vga_sync_porch.v(23)
+HDL-1007 : analyze verilog file ../src/vga_test_pattern_top.v
+HDL-1007 : analyze included file ../src/vga_sync_pulse.v in ../src/vga_test_pattern_top.v(11)
+HDL-5007 WARNING: overwrite current module module in ../src/vga_sync_pulse.v(41)
+HDL-1007 : previous definition of design element 'vga_sync_pulse' is here in ../src/vga_sync_pulse.v(41)
+HDL-1007 : back to file '../src/vga_test_pattern_top.v' in ../src/vga_test_pattern_top.v(11)
+HDL-1007 : analyze included file ../src/vga_sync_porch.v in ../src/vga_test_pattern_top.v(12)
+HDL-5007 WARNING: identifier 'VIDEO_WIDTH' is used before its declaration in ../src/vga_sync_porch.v(16)
+HDL-5007 WARNING: identifier 'VIDEO_WIDTH' is used before its declaration in ../src/vga_sync_porch.v(17)
+HDL-5007 WARNING: identifier 'VIDEO_WIDTH' is used before its declaration in ../src/vga_sync_porch.v(18)
+HDL-5007 WARNING: identifier 'VIDEO_WIDTH' is used before its declaration in ../src/vga_sync_porch.v(21)
+HDL-5007 WARNING: identifier 'VIDEO_WIDTH' is used before its declaration in ../src/vga_sync_porch.v(22)
+HDL-5007 WARNING: identifier 'VIDEO_WIDTH' is used before its declaration in ../src/vga_sync_porch.v(23)
+HDL-5007 WARNING: overwrite current module module in ../src/vga_sync_porch.v(86)
+HDL-1007 : previous definition of design element 'vga_sync_porch' is here in ../src/vga_sync_porch.v(86)
+HDL-1007 : back to file '../src/vga_test_pattern_top.v' in ../src/vga_test_pattern_top.v(12)
+HDL-1007 : analyze included file ../src/test_pattern_gen.v in ../src/vga_test_pattern_top.v(13)
+HDL-5007 WARNING: identifier 'VIDEO_WIDTH' is used before its declaration in ../src/test_pattern_gen.v(28)
+HDL-5007 WARNING: identifier 'VIDEO_WIDTH' is used before its declaration in ../src/test_pattern_gen.v(29)
+HDL-5007 WARNING: identifier 'VIDEO_WIDTH' is used before its declaration in ../src/test_pattern_gen.v(30)
+HDL-5007 WARNING: overwrite current module module in ../src/test_pattern_gen.v(126)
+HDL-1007 : previous definition of design element 'test_pattern_gen' is here in ../src/test_pattern_gen.v(126)
+HDL-1007 : back to file '../src/vga_test_pattern_top.v' in ../src/vga_test_pattern_top.v(13)
+HDL-1007 : analyze included file ../src/sync_count.v in ../src/vga_test_pattern_top.v(14)
+HDL-5007 WARNING: overwrite current module module in ../src/sync_count.v(56)
+HDL-1007 : previous definition of design element 'sync_count' is here in ../src/sync_count.v(56)
+HDL-1007 : back to file '../src/vga_test_pattern_top.v' in ../src/vga_test_pattern_top.v(14)
+HDL-1007 : analyze verilog file ../src/test_pattern_gen.v
+HDL-5007 WARNING: identifier 'VIDEO_WIDTH' is used before its declaration in ../src/test_pattern_gen.v(28)
+HDL-5007 WARNING: identifier 'VIDEO_WIDTH' is used before its declaration in ../src/test_pattern_gen.v(29)
+HDL-5007 WARNING: identifier 'VIDEO_WIDTH' is used before its declaration in ../src/test_pattern_gen.v(30)
+HDL-1007 : analyze verilog file ../src/vga_test_pattern_top.v
+HDL-1007 : analyze included file ../src/vga_sync_pulse.v in ../src/vga_test_pattern_top.v(11)
+HDL-1007 : back to file '../src/vga_test_pattern_top.v' in ../src/vga_test_pattern_top.v(11)
+HDL-1007 : analyze included file ../src/vga_sync_porch.v in ../src/vga_test_pattern_top.v(12)
+HDL-5007 WARNING: identifier 'VIDEO_WIDTH' is used before its declaration in ../src/vga_sync_porch.v(16)
+HDL-5007 WARNING: identifier 'VIDEO_WIDTH' is used before its declaration in ../src/vga_sync_porch.v(17)
+HDL-5007 WARNING: identifier 'VIDEO_WIDTH' is used before its declaration in ../src/vga_sync_porch.v(18)
+HDL-5007 WARNING: identifier 'VIDEO_WIDTH' is used before its declaration in ../src/vga_sync_porch.v(21)
+HDL-5007 WARNING: identifier 'VIDEO_WIDTH' is used before its declaration in ../src/vga_sync_porch.v(22)
+HDL-5007 WARNING: identifier 'VIDEO_WIDTH' is used before its declaration in ../src/vga_sync_porch.v(23)
+HDL-1007 : back to file '../src/vga_test_pattern_top.v' in ../src/vga_test_pattern_top.v(12)
+HDL-1007 : analyze included file ../src/test_pattern_gen.v in ../src/vga_test_pattern_top.v(13)
+HDL-5007 WARNING: identifier 'VIDEO_WIDTH' is used before its declaration in ../src/test_pattern_gen.v(28)
+HDL-5007 WARNING: identifier 'VIDEO_WIDTH' is used before its declaration in ../src/test_pattern_gen.v(29)
+HDL-5007 WARNING: identifier 'VIDEO_WIDTH' is used before its declaration in ../src/test_pattern_gen.v(30)
+HDL-1007 : back to file '../src/vga_test_pattern_top.v' in ../src/vga_test_pattern_top.v(13)
+HDL-1007 : analyze included file ../src/sync_count.v in ../src/vga_test_pattern_top.v(14)
+HDL-1007 : back to file '../src/vga_test_pattern_top.v' in ../src/vga_test_pattern_top.v(14)
+RUN-1002 : start command "elaborate -top vga_test_pattern_top"
+HDL-1007 : elaborate module vga_test_pattern_top in ../src/vga_test_pattern_top.v(16)
+HDL-1007 : elaborate module vga_sync_pulse in ../src/vga_sync_pulse.v(9)
+HDL-1007 : elaborate module test_pattern_gen in ../src/test_pattern_gen.v(20)
+HDL-1007 : elaborate module sync_count in ../src/sync_count.v(12)
+HDL-5007 WARNING: 'w_vsync' should be on the sensitivity list in ../src/test_pattern_gen.v(65)
+HDL-5007 WARNING: 'w_hsync' should be on the sensitivity list in ../src/test_pattern_gen.v(66)
+HDL-1007 : elaborate module vga_sync_porch in ../src/vga_sync_porch.v(11)
+HDL-5007 WARNING: input port 'i_pattern[2]' remains unconnected for this instance in ../src/vga_test_pattern_top.v(63)
+HDL-1200 : Current top model is vga_test_pattern_top
+HDL-1100 : Inferred 0 RAMs.
+GUI-8402 ERROR: Find error at 'DRIVESTRENGTH = 20'.
+GUI-8402 ERROR: Find error at 'DRIVESTRENGTH = 20'.
+GUI-8402 ERROR: Find error at 'DRIVESTRENGTH = 20'.
+GUI-8402 ERROR: Find error at 'DRIVESTRENGTH = 20'.
+GUI-8402 ERROR: Find error at 'DRIVESTRENGTH = 20'.
+GUI-8402 ERROR: Find error at 'DRIVESTRENGTH = 20'.
+GUI-8402 ERROR: Find error at 'DRIVESTRENGTH = 20'.
+GUI-8402 ERROR: Find error at 'DRIVESTRENGTH = 20'.
+GUI-8402 ERROR: Find error at 'DRIVESTRENGTH = 20'.
+GUI-8402 ERROR: Find error at 'DRIVESTRENGTH = 20'.
+GUI-8402 ERROR: Find error at 'DRIVESTRENGTH = 20'.
+GUI-8402 ERROR: Find error at 'DRIVESTRENGTH = 20'.
+GUI-8402 ERROR: Find error at 'DRIVESTRENGTH = 20'.
+GUI-8402 ERROR: Find error at 'DRIVESTRENGTH = 20'.
+GUI-5004 WARNING: i_clk has not been assigned location ...
+GUI-5004 WARNING: o_VGA_blue_0 has not been assigned location ...
+GUI-5004 WARNING: o_VGA_blue_1 has not been assigned location ...
+GUI-5004 WARNING: o_VGA_blue_2 has not been assigned location ...
+GUI-5004 WARNING: o_VGA_green_0 has not been assigned location ...
+GUI-5004 WARNING: o_VGA_green_1 has not been assigned location ...
+GUI-5004 WARNING: o_VGA_green_2 has not been assigned location ...
+GUI-5004 WARNING: o_VGA_hsync has not been assigned location ...
+GUI-5004 WARNING: o_VGA_red_0 has not been assigned location ...
+GUI-5004 WARNING: o_VGA_red_1 has not been assigned location ...
+GUI-5004 WARNING: o_VGA_red_2 has not been assigned location ...
+GUI-5004 WARNING: o_VGA_vsync has not been assigned location ...
+GUI-8405 ERROR: RST_N is not the signal of the project.
+GUI-8405 ERROR: Segment_out[0] is not the signal of the project.
+GUI-8405 ERROR: Segment_out[10] is not the signal of the project.
+GUI-8405 ERROR: Segment_out[11] is not the signal of the project.
+GUI-8405 ERROR: Segment_out[12] is not the signal of the project.
+GUI-8405 ERROR: Segment_out[13] is not the signal of the project.
+GUI-8405 ERROR: Segment_out[1] is not the signal of the project.
+GUI-8405 ERROR: Segment_out[2] is not the signal of the project.
+GUI-8405 ERROR: Segment_out[3] is not the signal of the project.
+GUI-8405 ERROR: Segment_out[4] is not the signal of the project.
+GUI-8405 ERROR: Segment_out[5] is not the signal of the project.
+GUI-8405 ERROR: Segment_out[6] is not the signal of the project.
+GUI-8405 ERROR: Segment_out[7] is not the signal of the project.
+GUI-8405 ERROR: Segment_out[8] is not the signal of the project.
+GUI-8405 ERROR: Segment_out[9] is not the signal of the project.
+GUI-8405 ERROR: clk is not the signal of the project.
+GUI-8402 ERROR: Find error at 'DRIVESTRENGTH = 20'.
+GUI-8402 ERROR: Find error at 'DRIVESTRENGTH = 20'.
+GUI-8402 ERROR: Find error at 'DRIVESTRENGTH = 20'.
+GUI-8402 ERROR: Find error at 'DRIVESTRENGTH = 20'.
+GUI-8402 ERROR: Find error at 'DRIVESTRENGTH = 20'.
+GUI-8402 ERROR: Find error at 'DRIVESTRENGTH = 20'.
+GUI-8402 ERROR: Find error at 'DRIVESTRENGTH = 20'.
+GUI-8402 ERROR: Find error at 'DRIVESTRENGTH = 20'.
+GUI-8402 ERROR: Find error at 'DRIVESTRENGTH = 20'.
+GUI-8402 ERROR: Find error at 'DRIVESTRENGTH = 20'.
+GUI-8402 ERROR: Find error at 'DRIVESTRENGTH = 20'.
+GUI-8402 ERROR: Find error at 'DRIVESTRENGTH = 20'.
+GUI-8402 ERROR: Find error at 'DRIVESTRENGTH = 20'.
+GUI-8402 ERROR: Find error at 'DRIVESTRENGTH = 20'.
+GUI-5004 WARNING: i_clk has not been assigned location ...
+GUI-5004 WARNING: o_VGA_blue_0 has not been assigned location ...
+GUI-5004 WARNING: o_VGA_blue_1 has not been assigned location ...
+GUI-5004 WARNING: o_VGA_blue_2 has not been assigned location ...
+GUI-5004 WARNING: o_VGA_green_0 has not been assigned location ...
+GUI-5004 WARNING: o_VGA_green_1 has not been assigned location ...
+GUI-5004 WARNING: o_VGA_green_2 has not been assigned location ...
+GUI-5004 WARNING: o_VGA_hsync has not been assigned location ...
+GUI-5004 WARNING: o_VGA_red_0 has not been assigned location ...
+GUI-5004 WARNING: o_VGA_red_1 has not been assigned location ...
+GUI-5004 WARNING: o_VGA_red_2 has not been assigned location ...
+GUI-5004 WARNING: o_VGA_vsync has not been assigned location ...
+GUI-8405 ERROR: RST_N is not the signal of the project.
+GUI-8405 ERROR: Segment_out[0] is not the signal of the project.
+GUI-8405 ERROR: Segment_out[10] is not the signal of the project.
+GUI-8405 ERROR: Segment_out[11] is not the signal of the project.
+GUI-8405 ERROR: Segment_out[12] is not the signal of the project.
+GUI-8405 ERROR: Segment_out[13] is not the signal of the project.
+GUI-8405 ERROR: Segment_out[1] is not the signal of the project.
+GUI-8405 ERROR: Segment_out[2] is not the signal of the project.
+GUI-8405 ERROR: Segment_out[3] is not the signal of the project.
+GUI-8405 ERROR: Segment_out[4] is not the signal of the project.
+GUI-8405 ERROR: Segment_out[5] is not the signal of the project.
+GUI-8405 ERROR: Segment_out[6] is not the signal of the project.
+GUI-8405 ERROR: Segment_out[7] is not the signal of the project.
+GUI-8405 ERROR: Segment_out[8] is not the signal of the project.
+GUI-8405 ERROR: Segment_out[9] is not the signal of the project.
+GUI-8405 ERROR: clk is not the signal of the project.
+HDL-1007 : analyze verilog file ../src/vga_test_pattern_top.v
+HDL-1007 : analyze included file ../src/vga_sync_pulse.v in ../src/vga_test_pattern_top.v(11)
+HDL-1007 : back to file '../src/vga_test_pattern_top.v' in ../src/vga_test_pattern_top.v(11)
+HDL-1007 : analyze included file ../src/vga_sync_porch.v in ../src/vga_test_pattern_top.v(12)
+HDL-5007 WARNING: identifier 'VIDEO_WIDTH' is used before its declaration in ../src/vga_sync_porch.v(16)
+HDL-5007 WARNING: identifier 'VIDEO_WIDTH' is used before its declaration in ../src/vga_sync_porch.v(17)
+HDL-5007 WARNING: identifier 'VIDEO_WIDTH' is used before its declaration in ../src/vga_sync_porch.v(18)
+HDL-5007 WARNING: identifier 'VIDEO_WIDTH' is used before its declaration in ../src/vga_sync_porch.v(21)
+HDL-5007 WARNING: identifier 'VIDEO_WIDTH' is used before its declaration in ../src/vga_sync_porch.v(22)
+HDL-5007 WARNING: identifier 'VIDEO_WIDTH' is used before its declaration in ../src/vga_sync_porch.v(23)
+HDL-1007 : back to file '../src/vga_test_pattern_top.v' in ../src/vga_test_pattern_top.v(12)
+HDL-1007 : analyze included file ../src/test_pattern_gen.v in ../src/vga_test_pattern_top.v(13)
+HDL-5007 WARNING: identifier 'VIDEO_WIDTH' is used before its declaration in ../src/test_pattern_gen.v(28)
+HDL-5007 WARNING: identifier 'VIDEO_WIDTH' is used before its declaration in ../src/test_pattern_gen.v(29)
+HDL-5007 WARNING: identifier 'VIDEO_WIDTH' is used before its declaration in ../src/test_pattern_gen.v(30)
+HDL-1007 : back to file '../src/vga_test_pattern_top.v' in ../src/vga_test_pattern_top.v(13)
+HDL-1007 : analyze included file ../src/sync_count.v in ../src/vga_test_pattern_top.v(14)
+HDL-1007 : back to file '../src/vga_test_pattern_top.v' in ../src/vga_test_pattern_top.v(14)
+RUN-1002 : start command "elaborate -top vga_test_pattern_top"
+HDL-1007 : elaborate module vga_test_pattern_top in ../src/vga_test_pattern_top.v(16)
+HDL-1007 : elaborate module vga_sync_pulse in ../src/vga_sync_pulse.v(9)
+HDL-1007 : elaborate module test_pattern_gen in ../src/test_pattern_gen.v(20)
+HDL-1007 : elaborate module sync_count in ../src/sync_count.v(12)
+HDL-5007 WARNING: 'w_vsync' should be on the sensitivity list in ../src/test_pattern_gen.v(65)
+HDL-5007 WARNING: 'w_hsync' should be on the sensitivity list in ../src/test_pattern_gen.v(66)
+HDL-1007 : elaborate module vga_sync_porch in ../src/vga_sync_porch.v(11)
+HDL-5007 WARNING: input port 'i_pattern[2]' remains unconnected for this instance in ../src/vga_test_pattern_top.v(63)
+HDL-1200 : Current top model is vga_test_pattern_top
+HDL-1100 : Inferred 0 RAMs.
+RUN-1002 : start command "read_adc ../constraint/io.adc"
+RUN-1002 : start command "set_pin_assignment  i_clk   LOCATION = K14; IOSTANDARD = LVCMOS33; "
+RUN-1002 : start command "set_pin_assignment  o_VGA_blue_0   LOCATION = A4; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 20; "
+RUN-1002 : start command "set_pin_assignment  o_VGA_blue_1   LOCATION = A3; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 20; "
+RUN-1002 : start command "set_pin_assignment  o_VGA_blue_2   LOCATION = C5; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 20; "
+RUN-1002 : start command "set_pin_assignment  o_VGA_green_0   LOCATION = B6; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 20; "
+RUN-1002 : start command "set_pin_assignment  o_VGA_green_1   LOCATION = A5; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 20; "
+RUN-1002 : start command "set_pin_assignment  o_VGA_green_2   LOCATION = B10; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 20; "
+RUN-1002 : start command "set_pin_assignment  o_VGA_hsync   LOCATION = B14; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 20; "
+RUN-1002 : start command "set_pin_assignment  o_VGA_red_0   LOCATION = A14; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 20; "
+RUN-1002 : start command "set_pin_assignment  o_VGA_red_1   LOCATION = B15; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 20; "
+RUN-1002 : start command "set_pin_assignment  o_VGA_red_2   LOCATION = B16; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 20; "
+RUN-1002 : start command "set_pin_assignment  o_VGA_vsync   LOCATION = C16; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 20; "
+RUN-1002 : start command "optimize_rtl"
+RUN-1001 : Open license file /home/omkar/VJTI/primer/TD_RELEASE_March2020_r4.6.4/license/Anlogic.lic
+SYN-1012 : SanityCheck: Model "vga_test_pattern_top"
+SYN-1012 : SanityCheck: Model "vga_sync_pulse"
+SYN-1012 : SanityCheck: Model "test_pattern_gen"
+SYN-1012 : SanityCheck: Model "sync_count"
+SYN-1012 : SanityCheck: Model "vga_sync_porch"
+SYN-5011 WARNING: Undriven pin: model "vga_test_pattern_top" / inst "i2" in ../src/vga_test_pattern_top.v(63) / pin "i_pattern[2]"
+SYN-5011 WARNING: Undriven pin: model "vga_test_pattern_top" / inst "i2" in ../src/vga_test_pattern_top.v(63) / pin "i_pattern[1]"
+SYN-5011 WARNING: Undriven pin: model "vga_test_pattern_top" / inst "i2" in ../src/vga_test_pattern_top.v(63) / pin "i_pattern[0]"
+SYN-5025 WARNING: Using 0 for all undriven pins and nets
+SYN-1011 : Flatten model vga_test_pattern_top
+SYN-1011 : Flatten model vga_sync_pulse
+SYN-1011 : Flatten model test_pattern_gen
+SYN-1011 : Flatten model sync_count
+SYN-1016 : Merged 2 instances.
+SYN-1011 : Flatten model vga_sync_porch
+SYN-1016 : Merged 2 instances.
+SYN-1016 : Merged 5 instances.
+SYN-1014 : Optimize round 1
+SYN-1032 : 319/4 useful/useless nets, 264/0 useful/useless insts
+SYN-1019 : Optimized 9 mux instances.
+SYN-1020 : Optimized 20 distributor mux.
+SYN-1016 : Merged 77 instances.
+SYN-1015 : Optimize round 1, 168 better
+SYN-1014 : Optimize round 2
+SYN-1032 : 129/170 useful/useless nets, 92/63 useful/useless insts
+SYN-1017 : Remove 3 const input seq instances
+SYN-1002 :     i2/reg0_b1
+SYN-1002 :     i4/reg0_b0
+SYN-1002 :     i4/reg3_b0
+SYN-1019 : Optimized 0 mux instances.
+SYN-1015 : Optimize round 2, 125 better
+SYN-1014 : Optimize round 3
+SYN-1032 : 126/0 useful/useless nets, 89/0 useful/useless insts
+SYN-1019 : Optimized 0 mux instances.
+SYN-1015 : Optimize round 3, 0 better
+RUN-1002 : start command "report_area -file vga_test_pattern_rtl.area"
+RUN-1001 : standard
+***Report Model: vga_test_pattern_top***
+
+IO Statistics
+#IO                    12
+  #input                1
+  #output              11
+  #inout                0
+
+Gate Statistics
+#Basic gates           53
+  #and                  2
+  #nand                 0
+  #or                   2
+  #nor                  0
+  #xor                  0
+  #xnor                 0
+  #buf                  0
+  #not                  3
+  #bufif1               0
+  #MX21                 0
+  #FADD                 0
+  #DFF                 46
+  #LATCH                0
+#MACRO_ADD             10
+#MACRO_EQ               4
+#MACRO_MUX             20
+
+RUN-1001 : 
+Report Hierarchy Area:
++-------------------------------------------------------+
+|Instance |Module               |gates  |seq    |macros |
++-------------------------------------------------------+
+|top      |vga_test_pattern_top |7      |46     |14     |
++-------------------------------------------------------+
+
+RUN-1002 : start command "export_db vga_test_pattern_rtl.db"
+RUN-1001 : Exported /
+RUN-1001 : Exported libs
+RUN-1001 : Exported entities
+RUN-1001 : Exported ports
+RUN-1001 : Exported pins
+RUN-1001 : Exported instances
+RUN-1001 : Exported nets
+RUN-1001 : Exported buses
+RUN-1001 : Exported models
+RUN-1001 : Exported congestions
+RUN-1001 : Exported violations
+RUN-1001 : Exported IO constraints
+RUN-1001 : Exported Inst constraints
+RUN-1001 : Exported flow parameters
+RUN-1002 : start command "optimize_gate -packarea vga_test_pattern_gate.area"
+RUN-1001 : Open license file /home/omkar/VJTI/primer/TD_RELEASE_March2020_r4.6.4/license/Anlogic.lic
+SYN-2001 : Map 12 IOs to PADs
+SYN-2501 : Processed 0 LOGIC_BUF instances.
+SYN-2571 : Optimize after map_dsp, round 1
+SYN-1032 : 136/0 useful/useless nets, 100/0 useful/useless insts
+SYN-2571 : Optimize after map_dsp, round 1, 0 better
+SYN-2501 : Optimize round 1
+SYN-1032 : 192/0 useful/useless nets, 156/0 useful/useless insts
+SYN-2501 : Optimize round 1, 40 better
+SYN-2501 : Optimize round 2
+SYN-1032 : 192/0 useful/useless nets, 156/0 useful/useless insts
+SYN-2501 : Optimize round 2, 0 better
+SYN-2501 : Map 10 macro adder
+SYN-1032 : 302/0 useful/useless nets, 266/0 useful/useless insts
+SYN-3001 : Running gate level optimization.
+SYN-2581 : Mapping with K=4, #lut = 37 (3.65), #lev = 2 (1.75)
+SYN-2551 : Post LUT mapping optimization.
+SYN-3001 : Logic optimization runtime opt =   0.04 sec, map =   0.00 sec
+SYN-3001 : Mapper mapped 87 instances into 37 LUTs, name keeping = 70%.
+SYN-1001 : Packing model "vga_test_pattern_top" ...
+SYN-4010 : Pack lib has 42 rtl pack models with 15 top pack blocks
+SYN-1014 : Optimize round 1
+SYN-1032 : 248/0 useful/useless nets, 212/0 useful/useless insts
+SYN-1015 : Optimize round 1, 0 better
+SYN-4002 : Packing 44 DFF/LATCH to SEQ ...
+SYN-4009 : Pack 4 carry chain into lslice
+SYN-4007 : Packing 72 adder to BLE ...
+SYN-4008 : Packed 72 adder and 2 SEQ to BLE.
+SYN-4007 : Packing 0 gate4 to BLE ...
+SYN-4008 : Packed 0 gate4 and 0 SEQ to BLE.
+SYN-4012 : Packed 0 FxMUX
+SYN-4007 : Packing 0 MUX to BLE ...
+SYN-4008 : Packed 0 MUX and 0 SEQ to BLE.
+SYN-4007 : Packing 37 LUT to BLE ...
+SYN-4008 : Packed 37 LUT and 20 SEQ to BLE.
+SYN-4003 : Packing 22 remaining SEQ's ...
+SYN-4004 : #0: Packed 0 SEQ (22 nodes)...
+SYN-4004 : #1: Packed 9 SEQ (53 nodes)...
+SYN-4005 : Packed 9 SEQ with LUT/SLICE
+SYN-4006 : 12 single LUT's are left
+SYN-4006 : 13 single SEQ's are left
+SYN-4011 : Packing model "vga_test_pattern_top" (AL_USER_NORMAL) with 50/113 primitive instances ...
+RUN-1002 : start command "report_area -file vga_test_pattern_gate.area"
+RUN-1001 : standard
+***Report Model: vga_test_pattern_top***
+
+IO Statistics
+#IO                    12
+  #input                1
+  #output              11
+  #inout                0
+
+Utilization Statistics
+#lut                  133   out of  19600    0.68%
+#reg                   44   out of  19600    0.22%
+#le                   146
+  #lut only           102   out of    146   69.86%
+  #reg only            13   out of    146    8.90%
+  #lut&reg             31   out of    146   21.23%
+#dsp                    0   out of     29    0.00%
+#bram                   0   out of     64    0.00%
+  #bram9k               0
+  #fifo9k               0
+#bram32k                0   out of     16    0.00%
+#pad                   12   out of    188    6.38%
+  #ireg                 0
+  #oreg                 2
+  #treg                 0
+#pll                    0   out of      4    0.00%
+
+RUN-1001 : 
+Report Hierarchy Area:
++----------------------------------------------------+
+|Instance |Module               |le    |lut   |seq   |
++----------------------------------------------------+
+|top      |vga_test_pattern_top |146   |133   |44    |
++----------------------------------------------------+
+
+RUN-1002 : start command "legalize_phy_inst"
+SYN-1011 : Flatten model vga_test_pattern_top
+RUN-1002 : start command "export_db vga_test_pattern_gate.db"
+RUN-1001 : Exported /
+RUN-1001 : Exported libs
+RUN-1001 : Exported entities
+RUN-1001 : Exported ports
+RUN-1001 : Exported pins
+RUN-1001 : Exported instances
+RUN-1001 : Exported nets
+RUN-1001 : Exported buses
+RUN-1001 : Exported models
+RUN-1001 : Exported congestions
+RUN-1001 : Exported violations
+RUN-1001 : Exported IO constraints
+RUN-1001 : Exported Inst constraints
+RUN-1001 : Exported flow parameters
+RUN-1002 : start command "place"
+RUN-1001 : Open license file /home/omkar/VJTI/primer/TD_RELEASE_March2020_r4.6.4/license/Anlogic.lic
+PHY-3001 : Placer runs in 4 thread(s).
+SYN-4024 : Net "i_clk_pad" drive clk pins.
+SYN-4025 : Tag rtl::Net i_clk_pad as clock net
+SYN-4026 : Tagged 1 rtl::Net as clock net
+PHY-1001 : Populate physical database.
+RUN-1001 : There are total 89 instances
+RUN-1001 : 37 mslices, 37 lslices, 12 pads, 0 brams, 0 dsps
+RUN-1001 : There are total 158 nets
+RUN-1001 : 100 nets have 2 pins
+RUN-1001 : 45 nets have [3 - 5] pins
+RUN-1001 : 3 nets have [6 - 10] pins
+RUN-1001 : 7 nets have [11 - 20] pins
+RUN-1001 : 2 nets have [21 - 99] pins
+RUN-1001 : 1 nets have 100+ pins
+PHY-3001 : Initial placement ...
+PHY-3001 : design contains 87 instances, 74 slices, 10 macros(48 instances)
+PHY-3001 : Start timing update ...
+RUN-1002 : start command "start_timer"
+TMR-5001 WARNING: No sdc constraints found while initiating timer.
+TMR-2505 : Start building timing graph for model vga_test_pattern_top.
+TMR-2506 : Build timing graph completely. Port num: 12, tpin num: 522, tnet num: 156, tinst num: 87, tnode num: 625, tedge num: 853.
+TMR-2507 : Eliminate loop in the timing graph, delete 0 tedges.
+TMR-2508 : Levelizing timing graph completed, there are 19 levels in total.
+TMR-2501 : Timing graph initialized successfully.
+TMR-2503 : Start to update net delay, extr mode = 2.
+TMR-2504 : Update delay of 156 nets completely.
+TMR-2502 : Annotate delay completely, extr mode = 2.
+TMR-3002 : No user constraint, initiate default constraint.
+TMR-1501 : Assign derive clock DeriveClock to 56 clock pins, and constraint 103 relative nodes.
+TMR-3005 : Start mapping report constraints, there are 0 constraints in total.
+TMR-3003 : Constraints initiated successfully.
+TMR-3501 : Forward propagation: start to calculate arrival time...
+TMR-3502 : Backward propagation: start to calculate required time...
+TMR-3503 : Timing propagation completes.
+PHY-3001 : End timing update;  0.038572s wall, 0.040000s user + 0.000000s system = 0.040000s CPU (103.7%)
+
+PHY-3001 : Global placement ...
+PHY-3001 : Initial: Len = 47070.6
+PHY-3001 : Run with size of 4
+PHY-3001 : Cell area utilization is 0%, beta_incr = 0.995469
+PHY-3001 : :::0::: Try harder cell spreading with beta_ = 0
+PHY-3002 : Step(1): len = 36089.2, overlap = 0
+PHY-3002 : Step(2): len = 27844.9, overlap = 0
+PHY-3002 : Step(3): len = 22616.7, overlap = 0
+PHY-3002 : Step(4): len = 19986.1, overlap = 0
+PHY-3002 : Step(5): len = 16829.7, overlap = 0
+PHY-3002 : Step(6): len = 14681.6, overlap = 0
+PHY-3002 : Step(7): len = 12534.4, overlap = 0
+PHY-3002 : Step(8): len = 10554, overlap = 0
+PHY-3002 : Step(9): len = 8498.1, overlap = 0
+PHY-3002 : Step(10): len = 7624.3, overlap = 0
+PHY-3002 : Step(11): len = 6492.8, overlap = 0
+PHY-3002 : Step(12): len = 5596, overlap = 0
+PHY-3002 : Step(13): len = 4798.9, overlap = 0
+PHY-3002 : Step(14): len = 4383.8, overlap = 0
+PHY-3002 : Step(15): len = 3985.6, overlap = 0
+PHY-3002 : Step(16): len = 3484.1, overlap = 0
+PHY-3002 : Step(17): len = 3469.4, overlap = 0
+PHY-3002 : Step(18): len = 3376.5, overlap = 0
+PHY-3002 : Step(19): len = 3367.9, overlap = 0
+PHY-3002 : Step(20): len = 3191.2, overlap = 0
+PHY-3002 : Step(21): len = 3047, overlap = 0
+PHY-3002 : Step(22): len = 2923, overlap = 0
+PHY-3002 : Step(23): len = 2729.8, overlap = 0
+PHY-3002 : Step(24): len = 2684.3, overlap = 0
+PHY-3002 : Step(25): len = 2585.4, overlap = 0
+PHY-3002 : Step(26): len = 2424.9, overlap = 0
+PHY-3002 : Step(27): len = 2353.1, overlap = 0
+PHY-3002 : Step(28): len = 2238.2, overlap = 0
+PHY-3002 : Step(29): len = 2034.8, overlap = 0
+PHY-3002 : Step(30): len = 1971.6, overlap = 0
+PHY-3002 : Step(31): len = 1924, overlap = 0
+PHY-3002 : Step(32): len = 1947, overlap = 0
+PHY-3002 : Step(33): len = 1854.4, overlap = 0
+PHY-3002 : Step(34): len = 1854.4, overlap = 0
+PHY-3002 : Step(35): len = 1833.7, overlap = 0
+PHY-3001 : Legalization ...
+PHY-3001 : End legalization;  0.009642s wall, 0.010000s user + 0.000000s system = 0.010000s CPU (103.7%)
+
+PHY-3001 : Run with size of 4
+PHY-3001 : Cell area utilization is 1%, beta_incr = 0.995469
+PHY-3001 : :::0::: Try harder cell spreading with beta_ = 0
+PHY-3002 : Step(36): len = 1810.4, overlap = 0
+PHY-3002 : Step(37): len = 1810.9, overlap = 0
+PHY-3002 : Step(38): len = 1825.8, overlap = 1.5
+PHY-3002 : Step(39): len = 1875.2, overlap = 1.75
+PHY-3002 : Step(40): len = 1940.3, overlap = 2
+PHY-3002 : Step(41): len = 2064.4, overlap = 0.5
+PHY-3002 : Step(42): len = 2053.5, overlap = 0
+PHY-3002 : Step(43): len = 2198.7, overlap = 0
+PHY-3002 : Step(44): len = 2291, overlap = 0.25
+PHY-3002 : Step(45): len = 2279.2, overlap = 1
+PHY-3002 : Step(46): len = 2494.6, overlap = 0
+PHY-3002 : Step(47): len = 2347, overlap = 0
+PHY-3002 : Step(48): len = 2105.6, overlap = 0
+PHY-3002 : Step(49): len = 2107.6, overlap = 0
+PHY-3002 : Step(50): len = 1980.7, overlap = 0
+PHY-3002 : Step(51): len = 1853, overlap = 1
+PHY-3002 : Step(52): len = 1706.4, overlap = 1
+PHY-3002 : Step(53): len = 1587.8, overlap = 1
+PHY-3002 : Step(54): len = 1477.6, overlap = 0.75
+PHY-3002 : Step(55): len = 1470.6, overlap = 0.75
+PHY-3002 : Step(56): len = 1408.9, overlap = 0
+PHY-3002 : Step(57): len = 1396.5, overlap = 0
+PHY-3002 : Step(58): len = 1342.3, overlap = 0
+PHY-3002 : Step(59): len = 1322.6, overlap = 0
+PHY-3002 : Step(60): len = 1329.9, overlap = 0
+PHY-3002 : Step(61): len = 1287.3, overlap = 0
+PHY-3002 : Step(62): len = 1297.3, overlap = 0
+PHY-3002 : Step(63): len = 1304.7, overlap = 0
+PHY-3002 : Step(64): len = 1307.1, overlap = 0
+PHY-3002 : Step(65): len = 1451.6, overlap = 1.5
+PHY-3002 : Step(66): len = 1584, overlap = 0.5
+PHY-3002 : Step(67): len = 1445.4, overlap = 0
+PHY-3002 : Step(68): len = 1402.1, overlap = 0
+PHY-3002 : Step(69): len = 1377.7, overlap = 0
+PHY-3002 : Step(70): len = 1397, overlap = 0.25
+PHY-3002 : Step(71): len = 1360.3, overlap = 0
+PHY-3002 : Step(72): len = 1186.7, overlap = 0
+PHY-3002 : Step(73): len = 1166.4, overlap = 0
+PHY-3002 : Step(74): len = 1084.1, overlap = 0
+PHY-3002 : Step(75): len = 1041.8, overlap = 0
+PHY-3002 : Step(76): len = 1025.6, overlap = 0
+PHY-3002 : Step(77): len = 981.3, overlap = 0
+PHY-3002 : Step(78): len = 981.8, overlap = 0
+PHY-3002 : Step(79): len = 984.8, overlap = 0
+PHY-3001 : Run with size of 2
+PHY-3001 : Cell area utilization is 1%, beta_incr = 0.995469
+PHY-3001 : :::0::: Try harder cell spreading with beta_ = 3.60903e-05
+PHY-3002 : Step(80): len = 964.8, overlap = 2.25
+PHY-3002 : Step(81): len = 978, overlap = 2
+PHY-3001 : :::1::: Try harder cell spreading with beta_ = 6.11055e-05
+PHY-3002 : Step(82): len = 1031.7, overlap = 1.5
+PHY-3002 : Step(83): len = 1069.5, overlap = 1.5
+PHY-3002 : Step(84): len = 1155.8, overlap = 1.25
+PHY-3002 : Step(85): len = 1138.4, overlap = 1.25
+PHY-3002 : Step(86): len = 1146.1, overlap = 1.25
+PHY-3002 : Step(87): len = 1134.7, overlap = 1.5
+PHY-3001 : :::2::: Try harder cell spreading with beta_ = 0.000122211
+PHY-3002 : Step(88): len = 1123.5, overlap = 1.5
+PHY-3002 : Step(89): len = 1125.3, overlap = 1.5
+PHY-3001 : Legalization ...
+PHY-3001 : End legalization;  0.016799s wall, 0.010000s user + 0.000000s system = 0.010000s CPU (59.5%)
+
+PHY-3001 : Run with size of 2
+PHY-3001 : Cell area utilization is 1%, beta_incr = 0.995469
+PHY-3001 : :::0::: Try harder cell spreading with beta_ = 0
+PHY-3002 : Step(90): len = 2716.6, overlap = 0.75
+PHY-3002 : Step(91): len = 2059.3, overlap = 1.75
+PHY-3002 : Step(92): len = 1886.9, overlap = 2.25
+PHY-3002 : Step(93): len = 1841.7, overlap = 1.75
+PHY-3002 : Step(94): len = 1760.1, overlap = 2.25
+PHY-3001 : :::1::: Try harder cell spreading with beta_ = 0.000348358
+PHY-3002 : Step(95): len = 1727.1, overlap = 2.5
+PHY-3002 : Step(96): len = 1707.6, overlap = 2.5
+PHY-3001 : :::2::: Try harder cell spreading with beta_ = 0.000696716
+PHY-3002 : Step(97): len = 1676.7, overlap = 2.5
+PHY-3002 : Step(98): len = 1673, overlap = 2.25
+PHY-3001 : Legalization ...
+PHY-3001 : End legalization;  0.013296s wall, 0.010000s user + 0.000000s system = 0.010000s CPU (75.2%)
+
+PHY-3001 : Legalized: Len = 2326.6, Over = 0
+PHY-3001 : Final: Len = 2326.6, Over = 0
+PHY-3001 : Improving timing with driver duplication.
+RUN-1001 : Generating global routing grids ...
+PHY-1001 : Generate routing nets ...
+PHY-1001 : Global iterations in 4 thread ...
+PHY-1002 : len = 2864, over cnt = 8(0%), over = 8, worst = 1
+PHY-1002 : len = 2976, over cnt = 0(0%), over = 0, worst = 0
+PHY-1001 : End global iterations;  0.011300s wall, 0.010000s user + 0.000000s system = 0.010000s CPU (88.5%)
+
+RUN-1003 : finish command "place" in  1.781191s wall, 2.430000s user + 0.430000s system = 2.860000s CPU (160.6%)
+
+RUN-1004 : used memory is 60 MB, reserved memory is 82 MB, peak memory is 82 MB
+RUN-1002 : start command "route"
+RUN-1001 : Open license file /home/omkar/VJTI/primer/TD_RELEASE_March2020_r4.6.4/license/Anlogic.lic
+PHY-1001 : Pin misalignment score is improved from 85 to 79
+PHY-1001 : Pin misalignment score is improved from 79 to 79
+PHY-1001 : Route runs in 4 thread(s)
+RUN-1001 : There are total 89 instances
+RUN-1001 : 37 mslices, 37 lslices, 12 pads, 0 brams, 0 dsps
+RUN-1001 : There are total 158 nets
+RUN-1001 : 100 nets have 2 pins
+RUN-1001 : 45 nets have [3 - 5] pins
+RUN-1001 : 3 nets have [6 - 10] pins
+RUN-1001 : 7 nets have [11 - 20] pins
+RUN-1001 : 2 nets have [21 - 99] pins
+RUN-1001 : 1 nets have 100+ pins
+PHY-1001 : Start global routing ...
+RUN-1001 : Generating global routing grids ...
+PHY-1001 : Generate routing nets ...
+PHY-1001 : Global iterations in 4 thread ...
+PHY-1002 : len = 2864, over cnt = 8(0%), over = 8, worst = 1
+PHY-1002 : len = 2976, over cnt = 0(0%), over = 0, worst = 0
+PHY-1001 : End global iterations;  0.011512s wall, 0.010000s user + 0.000000s system = 0.010000s CPU (86.9%)
+
+PHY-1001 : End global routing;  0.170727s wall, 0.190000s user + 0.000000s system = 0.190000s CPU (111.3%)
+
+PHY-1001 : Start detail routing ...
+PHY-1001 : Generate detailed routing grids ...
+PHY-1001 : Generate nets ...
+PHY-1001 : net i_clk_pad will be routed on clock mesh
+PHY-1001 : Detail Route ...
+PHY-1001 : ===== Detail Route Phase 1 =====
+PHY-1001 : Routed 0% nets.
+PHY-1002 : len = 2824, over cnt = 0(0%), over = 0, worst = 0
+PHY-1001 : End Routed; 0.006029s wall, 0.010000s user + 0.000000s system = 0.010000s CPU (165.9%)
+
+PHY-1001 : ===== Detail Route Phase 2 =====
+PHY-1001 : Routed 0% nets.
+PHY-1002 : len = 2824, over cnt = 0(0%), over = 0, worst = 0
+PHY-1001 : End Routed; 0.000064s wall, 0.000000s user + 0.000000s system = 0.000000s CPU (n/a%)
+
+PHY-1001 : ===== Detail Route Phase 3 =====
+PHY-1001 : Routed 20% nets.
+PHY-1001 : Routed 24% nets.
+PHY-1001 : Routed 39% nets.
+PHY-1001 : Routed 48% nets.
+PHY-1001 : Routed 67% nets.
+PHY-1002 : len = 6896, over cnt = 2(0%), over = 2, worst = 1
+PHY-1001 : End Routed; 0.077491s wall, 0.100000s user + 0.000000s system = 0.100000s CPU (129.0%)
+
+PHY-1001 : ===== DR Iter 1 =====
+PHY-1002 : len = 6904, over cnt = 0(0%), over = 0, worst = 0
+PHY-1003 : Routed, final wirelength = 6904
+PHY-1001 : End DR Iter 1; 0.008939s wall, 0.020000s user + 0.000000s system = 0.020000s CPU (223.7%)
+
+PHY-1001 : 0 feed throughs used by 0 nets
+PHY-1001 : Generate detailed routing grids ...
+PHY-1001 : Generate nets ...
+PHY-1001 : net i_clk_pad will be routed on clock mesh
+PHY-1001 : eco open net = 0
+PHY-1001 : End detail routing;  11.776940s wall, 12.000000s user + 0.000000s system = 12.000000s CPU (101.9%)
+
+PHY-1001 : Routing violations:
+PHY-1001 : End of Routing Violations.
+RUN-1003 : finish command "route" in  12.130141s wall, 12.390000s user + 0.000000s system = 12.390000s CPU (102.1%)
+
+RUN-1004 : used memory is 140 MB, reserved memory is 438 MB, peak memory is 438 MB
+RUN-1002 : start command "report_area -io_info -file vga_test_pattern_phy.area"
+RUN-1001 : standard
+***Report Model: vga_test_pattern_top***
+
+IO Statistics
+#IO                    12
+  #input                1
+  #output              11
+  #inout                0
+
+Utilization Statistics
+#lut                  133   out of  19600    0.68%
+#reg                   44   out of  19600    0.22%
+#le                   146
+  #lut only           102   out of    146   69.86%
+  #reg only            13   out of    146    8.90%
+  #lut&reg             31   out of    146   21.23%
+#dsp                    0   out of     29    0.00%
+#bram                   0   out of     64    0.00%
+  #bram9k               0
+  #fifo9k               0
+#bram32k                0   out of     16    0.00%
+#pad                   12   out of    188    6.38%
+  #ireg                 0
+  #oreg                 2
+  #treg                 0
+#pll                    0   out of      4    0.00%
+
+RUN-1001 : 
+
+RUN-1002 : start command "export_db vga_test_pattern_pr.db"
+RUN-1001 : Exported /
+RUN-1001 : Exported libs
+RUN-1001 : Exported entities
+RUN-1001 : Exported ports
+RUN-1001 : Exported pins
+RUN-1001 : Exported instances
+RUN-1001 : Exported nets
+RUN-1001 : Exported buses
+RUN-1001 : Exported models
+RUN-1001 : Exported congestions
+RUN-1001 : Exported violations
+RUN-1001 : Exported IO constraints
+RUN-1001 : Exported Inst constraints
+RUN-1001 : Exported flow parameters
+RUN-1002 : start command "bitgen -bit vga_test_pattern.bit -version 0X00 -g ucode:00000000000000000000000000000000"
+BIT-1003 : Start to generate bitstream. 
+BIT-1002 : Init instances with 4 threads.
+BIT-1002 : Init instances completely, inst num: 89
+BIT-1002 : Init pips with 4 threads.
+BIT-1002 : Init pips completely, net num: 158, pip num: 890
+BIT-1003 : Multithreading accelaration with 4 threads.
+BIT-1003 : Generate bitstream completely, there are 87 valid insts, and 3390 bits set as '1'.
+BIT-1004 : PLL setting string = 0000
+BIT-1004 : Generate bits file vga_test_pattern.bit.
+RUN-1003 : finish command "bitgen -bit vga_test_pattern.bit -version 0X00 -g ucode:00000000000000000000000000000000" in  1.041281s wall, 1.600000s user + 0.000000s system = 1.600000s CPU (153.7%)
+
+RUN-1004 : used memory is 140 MB, reserved memory is 438 MB, peak memory is 438 MB
