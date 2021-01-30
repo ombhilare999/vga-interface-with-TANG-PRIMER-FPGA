@@ -5,7 +5,7 @@
 //                Row and Column counters based on these syncs
 //                It will align the Row/Col counters to the ouptut sync pulses
 //                Useful for any module that needs to keep track of which Row/Col 
-//                position we are on in the middile ofk 
+//                position we are on in the middile of frame
 ////////////////////////////////////////////////////////////////////////////////
 
 

@@ -1,11 +1,8 @@
 ////////////////////////////////////////////////////////////////////////////////
 //   Module Name: test_pattern_gen.v
-//  Dependencies: 25 MHz Clock, input hsync and output sync from sync count
-//          Info: Module takes incoming horizontal and vertical pulses and create
-//                Row and Column counters based on these syncs
-//                It will align the Row/Col counters to the ouptut sync pulses
-//                Useful for any module that needs to keep track of which Row/Col 
-//                position we are on in the middile ofk 
+//  Dependencies: 25 MHz Clock, input hsync and vsync, also the pattern number
+//          Info: Generating DIffernet Test Patterns according to the input
+//                i_pattern
 ////////////////////////////////////////////////////////////////////////////////
 
 /*
