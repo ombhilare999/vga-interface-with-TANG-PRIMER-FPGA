@@ -14,7 +14,7 @@
     Pattern 4: Checkboard White/Black
 */
 
-//For Debugging
+//For Count Values
 `include  "sync_count.v"
 
 module test_pattern_gen
