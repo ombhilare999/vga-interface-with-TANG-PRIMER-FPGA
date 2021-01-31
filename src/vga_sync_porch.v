@@ -5,9 +5,6 @@
 //                i_pattern
 ////////////////////////////////////////////////////////////////////////////////
 
-//For Count Values
-//`include  "sync_count.v"
-
 module vga_sync_porch
 (
     input i_clk,
