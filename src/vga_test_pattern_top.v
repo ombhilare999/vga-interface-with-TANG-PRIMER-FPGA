@@ -14,7 +14,7 @@ module vga_test_pattern_top
 (
     //Main Clock
     input i_clk,
-
+    input [2:0]i_pattern,
     //VGA
     output   o_VGA_hsync,
     output   o_VGA_vsync,
@@ -35,6 +35,9 @@ module vga_test_pattern_top
     parameter TOTAL_ROWS  =  525;
     parameter ACTIVE_COLS =  640;
     parameter ACTIVE_ROWS =  480;  
+	
+	//Pattern for dispaly
+	//wire [2:0]i_pattern = 3'b001;
 
     // Common VGA Signals
     wire w_hsync_vga, wire_vsync_vga;
@@ -60,7 +63,7 @@ module vga_test_pattern_top
     test_pattern_gen i2
     (
         .i_clk(i_clk),
-        .i_pattern(),
+        .i_pattern(i_pattern),
         .i_hsync(w_hsync_vga),
         .i_vsync(w_vsync_vga),
         .o_hsync(w_hsync_tp),

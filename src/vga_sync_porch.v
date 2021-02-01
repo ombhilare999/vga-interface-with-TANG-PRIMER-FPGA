@@ -10,14 +10,14 @@ module vga_sync_porch
     input i_clk,
     input i_hsync,
     input i_vsync,
-    input [VIDEO_WIDTH-1:0] i_red_video,
-    input [VIDEO_WIDTH-1:0] i_green_video,
-    input [VIDEO_WIDTH-1:0] i_blue_video,
+    input [2:0] i_red_video,
+    input [2:0] i_green_video,
+    input [2:0] i_blue_video,
     output reg o_hsync,
     output reg o_vsync,
-    output reg [VIDEO_WIDTH-1:0] o_red_video,
-    output reg [VIDEO_WIDTH-1:0] o_green_video,
-    output reg [VIDEO_WIDTH-1:0] o_blue_video
+    output reg [2:0] o_red_video,
+    output reg [2:0] o_green_video,
+    output reg [2:0] o_blue_video
 );
 
     //Parameter Needed:

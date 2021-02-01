@@ -8,12 +8,12 @@ IO Statistics
   #inout                0
 
 Utilization Statistics
-#lut                  133   out of  19600    0.68%
-#reg                   44   out of  19600    0.22%
-#le                   146
-  #lut only           102   out of    146   69.86%
-  #reg only            13   out of    146    8.90%
-  #lut&reg             31   out of    146   21.23%
+#lut                  189   out of  19600    0.96%
+#reg                   67   out of  19600    0.34%
+#le                   208
+  #lut only           141   out of    208   67.79%
+  #reg only            19   out of    208    9.13%
+  #lut&reg             48   out of    208   23.08%
 #dsp                    0   out of     29    0.00%
 #bram                   0   out of     64    0.00%
   #bram9k               0
@@ -34,7 +34,7 @@ o_VGA_blue_0      OUTPUT        A4           LVCMOS33       20                NO
 o_VGA_blue_1      OUTPUT        A3           LVCMOS33       20                NONE                     
 o_VGA_blue_2      OUTPUT        C5           LVCMOS33       20                NONE                     
 o_VGA_green_0     OUTPUT        B6           LVCMOS33       20                NONE                     
-o_VGA_green_1     OUTPUT        A5           LVCMOS33       20                NONE                     
+o_VGA_green_1     OUTPUT        T7           LVCMOS33       20                NONE                     
 o_VGA_green_2     OUTPUT        B10          LVCMOS33       20                NONE                     
 o_VGA_hsync       OUTPUT        B14          LVCMOS33       20                OREG                     
 o_VGA_red_0       OUTPUT        A14          LVCMOS33       20                NONE                     

@@ -22,9 +22,9 @@ module test_pattern_gen
     input i_vsync,
     output reg o_hsync = 0,
     output reg o_vsync = 0,
-    output reg [VIDEO_WIDTH-1 : 0] o_red_video,
-    output reg [VIDEO_WIDTH-1 : 0] o_green_video,
-    output reg [VIDEO_WIDTH-1 : 0] o_blue_video
+    output reg [2:0] o_red_video,
+    output reg [2:0] o_green_video,
+    output reg [2:0] o_blue_video
 );
 
     //Parameter Needed:
@@ -93,27 +93,27 @@ module test_pattern_gen
     ////////////////////////////////////////////////////////////////////////////////////////////
     always @(posedge i_clk) begin
         case(i_pattern)
-            3'h0: begin
+            3'b000: begin
                 o_red_video   <=   pattern_red[0];
                 o_green_video <= pattern_green[0];
                 o_blue_video  <=  pattern_blue[0];
             end
-            3'h1: begin
+            3'b001: begin
                 o_red_video   <=   pattern_red[1];
                 o_green_video <= pattern_green[1];
                 o_blue_video  <=  pattern_blue[1];
             end
-            3'h2: begin
+            3'b010: begin
                 o_red_video   <=   pattern_red[2];
                 o_green_video <= pattern_green[2];
                 o_blue_video  <=  pattern_blue[2];
             end
-            3'h3: begin
+            3'b011: begin
                 o_red_video   <=  pattern_red[3];
                 o_green_video <= pattern_green[3];
                 o_blue_video  <=  pattern_blue[3];
             end
-            3'h4: begin
+            3'b100: begin
                 o_red_video   <=  pattern_red[4];
                 o_green_video <= pattern_green[4];
                 o_blue_video  <=  pattern_blue[4];
