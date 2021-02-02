@@ -2,32 +2,32 @@ standard
 ***Report Model: vga_test_pattern_top***
 
 IO Statistics
-#IO                    12
-  #input                1
-  #output              11
+#IO                    15
+  #input                3
+  #output              12
   #inout                0
 
 Utilization Statistics
-#lut                  189   out of  19600    0.96%
-#reg                   67   out of  19600    0.34%
-#le                   208
-  #lut only           141   out of    208   67.79%
-  #reg only            19   out of    208    9.13%
-  #lut&reg             48   out of    208   23.08%
+#lut                  194   out of  19600    0.99%
+#reg                   74   out of  19600    0.38%
+#le                   217
+  #lut only           143   out of    217   65.90%
+  #reg only            23   out of    217   10.60%
+  #lut&reg             51   out of    217   23.50%
 #dsp                    0   out of     29    0.00%
 #bram                   0   out of     64    0.00%
   #bram9k               0
   #fifo9k               0
 #bram32k                0   out of     16    0.00%
-#pad                   12   out of    188    6.38%
+#pad                   15   out of    188    7.98%
   #ireg                 0
   #oreg                 2
   #treg                 0
-#pll                    0   out of      4    0.00%
+#pll                    1   out of      4   25.00%
 
 Report Hierarchy Area:
 +----------------------------------------------------+
 |Instance |Module               |le    |lut   |seq   |
 +----------------------------------------------------+
-|top      |vga_test_pattern_top |208   |189   |67    |
+|top      |vga_test_pattern_top |217   |194   |74    |
 +----------------------------------------------------+
