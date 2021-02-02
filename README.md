@@ -3,11 +3,11 @@ Interfacing Tang primer with VGA display.
 
 ## Table of Content:
  - [Getting Started With Tang Primer](#getting-started-With-tang-primer)
- - [File Structure](#file_structure)
+ - [File Structure](#file-structure)
  - [IO info](#io-info)
  - [Circuit Diagram](#circuit-diagram)
  - [TO DO](#to-do)
- - [Reference](#refernce)
+ - [Reference](#reference)
 
 ## Getting Started With Tang Primer:
 - [Install The TD IDE](https://tang.sipeed.com/en/getting-started/)
