@@ -8,12 +8,12 @@ IO Statistics
   #inout                0
 
 Utilization Statistics
-#lut                  194   out of  19600    0.99%
-#reg                   74   out of  19600    0.38%
-#le                   217
-  #lut only           143   out of    217   65.90%
-  #reg only            23   out of    217   10.60%
-  #lut&reg             51   out of    217   23.50%
+#lut                  288   out of  19600    1.47%
+#reg                   85   out of  19600    0.43%
+#le                   321
+  #lut only           236   out of    321   73.52%
+  #reg only            33   out of    321   10.28%
+  #lut&reg             52   out of    321   16.20%
 #dsp                    0   out of     29    0.00%
 #bram                   0   out of     64    0.00%
   #bram9k               0
@@ -21,7 +21,7 @@ Utilization Statistics
 #bram32k                0   out of     16    0.00%
 #pad                   15   out of    188    7.98%
   #ireg                 0
-  #oreg                 2
+  #oreg                11
   #treg                 0
 #pll                    1   out of      4   25.00%
 
@@ -29,5 +29,5 @@ Report Hierarchy Area:
 +----------------------------------------------------+
 |Instance |Module               |le    |lut   |seq   |
 +----------------------------------------------------+
-|top      |vga_test_pattern_top |217   |194   |74    |
+|top      |vga_test_pattern_top |321   |288   |85    |
 +----------------------------------------------------+

@@ -8,27 +8,28 @@ IO Statistics
   #inout                0
 
 Gate Statistics
-#Basic gates           95
-  #and                  8
+#Basic gates          142
+  #and                 14
   #nand                 0
-  #or                   2
+  #or                  11
   #nor                  0
-  #xor                  0
+  #xor                  1
   #xnor                 0
   #buf                  0
-  #not                  9
+  #not                 17
   #bufif1               0
-  #MX21                 0
+  #MX21                 3
   #FADD                 0
-  #DFF                 76
+  #DFF                 96
   #LATCH                0
-#MACRO_ADD             14
-#MACRO_EQ               6
-#MACRO_MUX             32
+#MACRO_ADD             21
+#MACRO_EQ              13
+#MACRO_MULT             3
+#MACRO_MUX             48
 
 Report Hierarchy Area:
 +-------------------------------------------------------+
 |Instance |Module               |gates  |seq    |macros |
 +-------------------------------------------------------+
-|top      |vga_test_pattern_top |19     |76     |21     |
+|top      |vga_test_pattern_top |46     |96     |38     |
 +-------------------------------------------------------+

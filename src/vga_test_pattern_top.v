@@ -67,10 +67,10 @@ module vga_test_pattern_top
 
 	always @(sel0 or sel1) begin
         case({sel0, sel1}) 
-            2'b00: i_pattern_reg <= 3'b000;
-            2'b01: i_pattern_reg <= 3'b001;
-            2'b10: i_pattern_reg <= 3'b010;
-            2'b11: i_pattern_reg <= 3'b011;
+            2'b00: i_pattern_reg <= 3'b001;
+            2'b01: i_pattern_reg <= 3'b010;
+            2'b10: i_pattern_reg <= 3'b100;
+            2'b11: i_pattern_reg <= 3'b101;
         endcase 
     end
 
@@ -136,6 +136,7 @@ module vga_test_pattern_top
     assign  o_VGA_blue_2 = w_blue_Porch[2]; 
 endmodule
 
+// PLL to convert 24MHz clock on K14 to 25MHz for vga
 module ip_pll(refclk,
 		reset,
 		extlock,
